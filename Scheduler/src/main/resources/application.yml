@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+# Netty监听端口
+heartbeat:
+  port: 8088
+  interval: 10000

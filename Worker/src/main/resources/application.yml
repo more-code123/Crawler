@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+worker:
+  name: worker1
+
+heartbeat:
+  host: localhost
+  port: 8088
+  interval: 10000
